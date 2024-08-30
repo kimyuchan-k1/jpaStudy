@@ -1,0 +1,10 @@
+logging:
+  level:
+    org:
+      hibernate:
+        sql: debug
+        type: trace
+
+
+
+## 스프링에서 db를 설정하지 않으면 자체적으로 외부 db 가 아닌  h2 의 메모리 db를 사용한다.
